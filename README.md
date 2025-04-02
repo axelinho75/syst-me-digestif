@@ -21,3 +21,15 @@
 - Design responsive : Adaptation automatique à différentes tailles d'écrans
 - Navigation conviviale : Fermeture des modales par bouton, clic extérieur ou touche Escape
 - Animation fluide : Transitions et effets visuels pour améliorer l'expérience utilisateur
+
+
+# Stucture des Fichiers
+
+systeme-digestif/
+│
+├── index.html          # Structure HTML principale
+├── styles.css          # Styles et mise en page CSS
+├── script.js           # Logique d'interaction JavaScript 
+├── digestivePoints.js  # Données des points d'intérêt
+└── digestive-system.jpg # Image du système digestif
+
