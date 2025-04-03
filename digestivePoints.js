@@ -1,7 +1,7 @@
 const digestivePoints = [
     {
         id: 'mouth',
-        name: 'Bouche',
+        name: 'Boca',
         x: 32, // pourcentage relatif à la largeur de l'image
         y: 18, // pourcentage relatif à la hauteur de l'image
         description: "La bouche est le point d'entrée du système digestif. C'est ici que commence la digestion mécanique (mastication) et chimique (enzymes salivaires).",
@@ -13,7 +13,7 @@ const digestivePoints = [
     },
     {
         id: 'esophagus',
-        name: 'Œsophage',
+        name: 'Epiglotis',
         x: 50,
         y: 25,
         description: "L'œsophage est un tube musculaire d'environ 25-30 cm qui relie la bouche à l'estomac. Il transporte la nourriture grâce à des mouvements péristaltiques.",
@@ -25,7 +25,7 @@ const digestivePoints = [
     },
     {
         id: 'stomach',
-        name: 'Estomac',
+        name: 'Estomago',
         x: 66,
         y: 56,
         description: "L'estomac est un organe en forme de J qui sert de réservoir temporaire pour la nourriture. Il mélange les aliments avec les acides gastriques et les enzymes pour poursuivre la digestion.",
@@ -37,7 +37,7 @@ const digestivePoints = [
     },
     {
         id: 'liver',
-        name: 'Foie',
+        name: 'Higado',
         x: 35,
         y: 56,
         description: "Le foie est la plus grande glande du corps humain. Il produit la bile nécessaire à la digestion des graisses et remplit plus de 500 fonctions différentes dans l'organisme.",

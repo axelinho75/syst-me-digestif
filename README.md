@@ -25,11 +25,3 @@
 
 # Stucture des Fichiers
 
-systeme-digestif/
-│
-├── index.html          # Structure HTML principale
-├── styles.css          # Styles et mise en page CSS
-├── script.js           # Logique d'interaction JavaScript 
-├── digestivePoints.js  # Données des points d'intérêt
-└── digestive-system.jpg # Image du système digestif
-
