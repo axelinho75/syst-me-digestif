@@ -4,11 +4,11 @@ const digestivePoints = [
         name: 'Boca',
         x: 32, // pourcentage relatif à la largeur de l'image
         y: 18, // pourcentage relatif à la hauteur de l'image
-        description: "La bouche est le point d'entrée du système digestif. C'est ici que commence la digestion mécanique (mastication) et chimique (enzymes salivaires).",
+        description: "La boca es el punto de entrada al sistema digestivo. Aquí comienza la digestión mecánica (masticación) y química (enzimas salivales).",
         facts: [
-            "Les enzymes dans la salive commencent à décomposer les glucides",
-            "La langue aide à mélanger les aliments avec la salive et à former le bol alimentaire",
-            "Un adulte produit environ 1.5 litre de salive par jour"
+            "Las enzimas de la saliva comienzan a descomponer los hidratos de carbono.",
+            "La lengua ayuda a mezclar los alimentos con la saliva y a formar el bolo alimenticio. ",
+            "Un adulto produce alrededor de 1,5 litros de saliva al día."
         ]
     },
     {
@@ -16,11 +16,11 @@ const digestivePoints = [
         name: 'Epiglotis',
         x: 50,
         y: 25,
-        description: "L'œsophage est un tube musculaire d'environ 25-30 cm qui relie la bouche à l'estomac. Il transporte la nourriture grâce à des mouvements péristaltiques.",
+        description: "La epiglotis es un pequeño colgajo de tejido que impide que los alimentos entren en la tráquea al tragar.",
         facts: [
-            "Les ondes péristaltiques permettent de manger même en position horizontale ou inversée",
-            "Le passage entre l'œsophage et l'estomac est appelé sphincter œsophagien inférieur",
-            "Il faut environ 8-9 secondes pour que la nourriture descende de la bouche à l'estomac"
+            "Se cierra automáticamente al tragar.",
+            "Separa las vías respiratoria y digestiva.",
+            "Sin ella, podríamos atragantarnos con la comida."
         ]
     },
     {
@@ -28,11 +28,11 @@ const digestivePoints = [
         name: 'Estomago',
         x: 66,
         y: 56,
-        description: "L'estomac est un organe en forme de J qui sert de réservoir temporaire pour la nourriture. Il mélange les aliments avec les acides gastriques et les enzymes pour poursuivre la digestion.",
+        description: "El estómago es un saco muscular que descompone los alimentos con ácidos y potentes enzimas.",
         facts: [
-            "L'estomac peut contenir jusqu'à 4 litres de nourriture",
-            "L'acide gastrique est assez puissant pour dissoudre du métal",
-            "L'estomac produit une nouvelle couche de mucus toutes les deux semaines pour éviter de se digérer lui-même"
+            "Puede contener hasta 2 litros de alimentos.",
+            "El jugo gástrico contiene ácido clorhídrico.",
+            "Transforma los alimentos en una sustancia semilíquida llamada quimo."
         ]
     },
     {
@@ -40,11 +40,11 @@ const digestivePoints = [
         name: 'Higado',
         x: 35,
         y: 56,
-        description: "Le foie est la plus grande glande du corps humain. Il produit la bile nécessaire à la digestion des graisses et remplit plus de 500 fonctions différentes dans l'organisme.",
+        description: "El hígado es un órgano vital que facilita la digestión produciendo bilis. También desempeña un papel importante en el metabolismo y la desintoxicación.",
         facts: [
-            "Le foie peut se régénérer, même si jusqu'à 75% est endommagé",
-            "Il filtre environ 1.5 litre de sang par minute",
-            "La bile produite par le foie aide à l'absorption des vitamines A, D, E et K"
+            "Puede regenerar sus células dañadas.",
+            "Produce alrededor de 1 litro de bilis al día.",
+            "Almacena glucosa en forma de glucógeno."
         ]
     },
     {
@@ -64,59 +64,59 @@ const digestivePoints = [
         name: 'Vésicule biliaire',
         x: 42,
         y: 23,
-        description: "La vésicule biliaire stocke et concentre la bile produite par le foie. Lors d'un repas, elle libère la bile dans l'intestin grêle pour aider à digérer les graisses.",
+        description: "El páncreas produce enzimas digestivas y hormonas como la insulina. Es esencial para la digestión y la regulación de los niveles de azúcar en sangre.",
         facts: [
-            "La vésicule biliaire peut stocker environ 50 ml de bile",
-            "On peut vivre normalement sans vésicule biliaire",
-            "Les calculs biliaires se forment quand la bile contient trop de cholestérol"
+            "Segrega enzimas en el intestino delgado para descomponer las grasas, las proteínas y los hidratos de carbono.",
+            "Desempeña un papel crucial en el control de la glucemia.",
+            "Mide unos 15 cm de largo."
         ]
     },
     {
         id: 'pancreas',
-        name: 'Pancréas',
+        name: 'Páncreas',
         x: 51,
         y: 61,
-        description: "Le pancréas produit des enzymes digestives qui aident à décomposer les protéines, les lipides et les glucides. Il sécrète également des hormones comme l'insuline pour réguler la glycémie.",
+        description: "El páncreas produce enzimas digestivas y hormonas como la insulina. Es esencial para la digestión y la regulación de los niveles de azúcar en sangre..",
         facts: [
-            "Le pancréas produit jusqu'à 1.5 litre de suc pancréatique par jour",
-            "Il contient à la fois des tissus exocrines (enzymes) et endocrines (hormones)",
-            "Un dysfonctionnement du pancréas peut causer le diabète"
+            "Segrega enzimas en el intestino delgado para descomponer las grasas, las proteínas y los hidratos de carbono.",
+            "Desempeña un papel crucial en el control de la glucemia.",
+            "Mide unos 15 cm de largo."
         ]
     },
     {
         id: 'small_intestine',
-        name: 'Intestin grêle',
+        name: 'Intestino delgado',
         x: 53,
         y: 79,
-        description: "L'intestin grêle est un tube d'environ 6-7 mètres de long où se déroule la majeure partie de la digestion et de l'absorption des nutriments. Il est composé du duodénum, du jéjunum et de l'iléon.",
+        description: "En el intestino delgado tiene lugar la mayor parte de la digestión y absorción de nutrientes. Mide unos 6 metros de largo y se divide en tres partes: duodeno, yeyuno e íleon.",
         facts: [
-            "Il possède une surface d'absorption équivalente à un terrain de tennis grâce aux villosités",
-            "90% de l'absorption des nutriments se produit dans l'intestin grêle",
-            "Il contient plus de 100 millions de neurones, parfois appelé 'deuxième cerveau'"
+            "La pared del intestino delgado contiene vellosidades que aumentan la absorción de nutrientes.",
+            "Puede absorber alrededor del 90% de los nutrientes consumidos.",
+            "Las enzimas digestivas y la bilis actúan aquí para completar la digestión."
         ]
     },
     {
         id: 'large_intestine',
-        name: 'Gros intestin (côlon)',
+        name: 'Intestino grueso',
         x: 74,
         y: 66,
-        description: "Le gros intestin mesure environ 1.5 mètre et entoure l'intestin grêle. Sa principale fonction est d'absorber l'eau et les électrolytes des restes alimentaires pour former les selles.",
+        description: "El intestino grueso se encarga de absorber el agua y los minerales de los alimentos no digeridos y de formar las heces.",
         facts: [
-            "Le côlon héberge des billions de bactéries bénéfiques (microbiote intestinal)",
-            "Il peut absorber jusqu'à 5 litres d'eau par jour",
-            "Un transit complet dans le côlon prend généralement entre 24 et 72 heures"
+            "El intestino grueso mide aproximadamente 1,5 metros de largo.",
+            "Alberga miles de millones de bacterias útiles para la digestión.",
+            "Transforma los desechos en materia fecal lista para su eliminación."
         ]
     },
     {
         id: 'rectum',
-        name: 'Rectum',
+        name: 'Recto',
         x: 66,
         y: 88,
-        description: "Le rectum est la dernière partie du gros intestin, mesurant environ 12 cm. Il stocke temporairement les matières fécales avant leur élimination.",
+        description: "El recto es la última parte del intestino grueso. Almacena las heces antes de ser expulsadas.",
         facts: [
-            "Le rectum contient des récepteurs qui signalent quand il est temps d'évacuer les selles",
-            "Il est doté d'une grande élasticité pour s'adapter au volume des matières",
-            "Des muscles spécialisés contrôlent la rétention et l'évacuation"
+            "Mide entre 12 y 15 cm de largo.",
+            "El jugo gástrico contiene ácido clorhídrico.",
+            "Transforma los alimentos en una sustancia semilíquida llamada quimo."
         ]
     },
     {
